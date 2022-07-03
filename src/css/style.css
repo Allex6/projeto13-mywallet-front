@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Saira+Stencil+One&display=swap');
+
+body {
+    background-color: #8C11BE;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-success {
+    color: #03AC00;
+}
+
+.text-danger {
+    color: #C70000;
+}
+
+.screen {
+    align-items: center;
+    align-self: center;
+    padding: 24px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 32px;
+    margin-top: 160px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.register .logo {
+    margin-top: 80px;
+}
+
+input {
+    height: 55px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+}
+
+form.d-flex {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form button {
+    width: 100%;
+    color: #fff;
+    background-color: #A328D6;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+form a {
+    margin-top: 35px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.index-screen {
+    flex-direction: column;
+}
+
+.header {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 24px;
+    font-size: 26px;
+    font-weight: bold;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+.transactions-list {
+    width: 100%;
+    height: 446px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    color: #000;
+    position: relative;
+}
+
+.transactions-list .no-records {
+    color: #868686;
+    text-align: center;
+}
+
+.transactions-list .total {
+    position: relative;
+    bottom: 10px;
+    left: 0px;
+    justify-content: space-between;
+    width: 95%;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.transactions-list .transaction-item {
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.transactions-list .transaction-item .info span {
+    color: #C6C6C6;
+    margin-right: 5px;
+}
+
+
+
+.actions {
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+    margin: 24px auto;
+}
+
+.actions > a {
+    padding: 12px;
+    margin:  auto 10px;
+    background-color: #A328D6;
+    border-radius: 5px;
+    width: 50%;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.actions > a p {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.actions > a ion-icon {
+    font-size: 24px;
+}
