@@ -22,7 +22,7 @@ export default function Login(){
 
         try {
             
-            const response = await axios.post('http://localhost:5000/login', { email, password });
+            const response = await axios.post('https://lovely-kings-canyon-54355.herokuapp.com/login', { email, password });
             setUser(response.data);
             navigate('/');
 

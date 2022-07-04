@@ -31,7 +31,7 @@ export default function Main(){
                     }
                 };
 
-                const response = await axios.get('http://localhost:5000/transactions', requestConfig);
+                const response = await axios.get('https://lovely-kings-canyon-54355.herokuapp.com/transactions', requestConfig);
                 setTransactions(response.data);
 
             } catch (err) {
@@ -58,7 +58,7 @@ export default function Main(){
                 }
             }
 
-            await axios.delete('http://localhost:5000/logout', requestConfig);
+            await axios.delete('https://lovely-kings-canyon-54355.herokuapp.com/logout', requestConfig);
             navigate('/login');
 
         } catch (err) {

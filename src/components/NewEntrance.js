@@ -34,7 +34,7 @@ export default function NewEntrance(){
                 title
             }
 
-            await axios.post('http://localhost:5000/new-entrance', bodyData, requestConfig);
+            await axios.post('https://lovely-kings-canyon-54355.herokuapp.com/new-entrance', bodyData, requestConfig);
             navigate('/');
 
         } catch (err) {

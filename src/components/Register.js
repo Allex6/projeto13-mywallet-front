@@ -33,7 +33,7 @@ export default function Register(){
                 confirmPassword
             };
 
-            await axios.post('http://localhost:5000/cadastro', bodyData);
+            await axios.post('https://lovely-kings-canyon-54355.herokuapp.com/cadastro', bodyData);
             alert('Cadastro realizado com sucesso. Estamos te redirecionando para a página de login.');
             setTimeout(() => navigate('/login'), 1000);
 
